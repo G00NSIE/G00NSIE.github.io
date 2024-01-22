@@ -3,29 +3,54 @@
 <head>
     <title>Merino, Manny A.</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        header, footer {
-            background-color: #f0f0f0;
-            padding: 10px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        figure {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        figcaption {
-            font-style: italic;
-        }
-        .bold {
-            font-weight: bold;
-        }
+        :root {
+                --primary-color: #ff8a00; 
+                --secondary-color: #ffffff; 
+                --tertiary-color: #333333;
+            }
+
+            body{
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: var(--secondary-color);
+                color: var(--tertiary-color);
+            }
+            p{
+                size: 20px;
+            }
+            
+            * {
+                font-family: Arial, sans-serif;
+            }
+            
+            header {
+                background-color: var(--primary-color);
+                color: var(--secondary-color);
+                padding: 20px;
+            }
+
+            footer {
+                background-color: var(--tertiary-color);
+                color: var(--secondary-color);
+                padding: 20px;
+            }
+            main h2 {
+                text-align: center;
+                padding:20;
+            }
+            figure {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            figcaption {
+                font-style: italic;
+            }
+            .bold {
+                font-weight: bold;
+            }
     </style>
 </head>
 <body>

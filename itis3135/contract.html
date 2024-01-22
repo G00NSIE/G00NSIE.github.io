@@ -2,17 +2,46 @@
 <html>
     <head>
         <style>
+             :root {
+                --primary-color: #ff8a00; 
+                --secondary-color: #ffffff; 
+                --tertiary-color: #333333;
+            }
+
             body{
-                background-color: lightblue;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: var(--secondary-color);
+                color: var(--tertiary-color);
             }
             p{
                 size: 20px;
             }
+            
+            * {
+                font-family: Arial, sans-serif;
+            }
+            
+            header {
+                background-color: var(--primary-color);
+                color: var(--secondary-color);
+                padding: 20px;
+            }
+
+            footer {
+                background-color: var(--tertiary-color);
+                color: var(--secondary-color);
+                padding: 20px;
+            }
+  
         </style>
         <title>Contract</title>
     </head>
     <body>
+      <header>
         <h1>Contract</h1>
+    </header>
         <p>I, <a href="introduction.html">Manuel Merino</a> agree to abide by the terms of the course contract in my spring semester 2024, ITSC3135, web app design  with my instructor, Professor D.I. von Briesen.
 
             I understand that all work that I do on publicly available online tools will be available to the world, and will not put information there that is inappropriate for schoolwork, or that I wish to keep private.
