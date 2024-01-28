@@ -10,7 +10,7 @@
     font-family: Arial, sans-serif;
   }
   
-
+  /*Header*/
   header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -41,7 +41,8 @@
   nav a:hover {
     text-decoration: underline;
   }
-  
+  /*-----*/
+
   main {
     max-width: 800px;
     margin: 0 auto;
@@ -66,6 +67,8 @@ figcaption {
 .bold {
     font-weight: bold;
 }
+
+/*Tables  */
 table {
   width: 100%;
 }
@@ -76,6 +79,35 @@ th {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+/*----*/
+
+/*Forms*/
+input[type=submit], input[type=reset] {
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=text], input[type=tel], input[type=email], select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+input[type=checkbox], input[type=radio] {
+  margin: 4px;
+}
+
+label {
+  font-weight: bold;
+}
+/*-----*/
   
  /*footer*/
   footer {
