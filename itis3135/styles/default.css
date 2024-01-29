@@ -67,7 +67,9 @@ figcaption {
 .bold {
     font-weight: bold;
 }
-
+a{
+  color:var(--primary-color);
+}
 /*Tables  */
 table {
   width: 100%;
