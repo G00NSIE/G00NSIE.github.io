@@ -115,6 +115,11 @@ label {
     color: var(--secondary-color);
     padding: 20px;
   }
+  #validation_link_html, #validation_link_css {
+    display: flex;
+    justify-content: center;
+
+}
   
   footer ul {
     display: flex;
