@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Home</title>
+    <script src="scripts/templates.js"></script>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+  <header>    
+    <h1> Motivated Manatee || ITIS3135 || Crap </h1>
+  </header>
+  <header-template></header-template>
+  <main>
+    <h2>Website Evaluations</h2>
+        <h3>The good: An analysis of <a href="https://harvardfilmarchive.org/">Harvard Film Archive</a></h3>
+        <ul class="card">
+            <li><b>C</b>rap: A well designed website uses contrast to differentiate different elements in the page. This could be seen in this website through the colors chosen, the shapes used in diffent button elements, large headings, and colors chosen</li><br>
+            <li><b>R</b>epition: is used to create a cohesive look and feel. This could be seen in this website through consistent fonts and page formatting in conjunction with a consistent color scheme. This repition helps creae a sense of unity.</li><br>
+            <li><b>A</b>lignment: refers to the way elements are lined up on a page. This website demonstrates good alignment by having a a layout that guides the users eyes to key elements without being jaring or unpredictible. </li><br>
+            <li><b>P</b>roximity: is the relation to items and there grouping. This website navigates good use of proximity by grouping related items together for things like nav links, and menu bars while keeping the main content together.</li><br>
+        </ul>
+        
+    
+        <h3>The Bad: An analysis of <a href="https://shop.ty.com/?lang=en">Beanie Baby's store</a></h3>
+        <ul class="card">
+            <li><b>C</b>onstrast: The contrast is the relationship of colors in the website. In this particle site the background colors can make the text a little harder to read. making the over all experience of reading text a tille difficult at time. The hierarchy of information is also designed suboptimally</li><br>
+            <li><b>R</b>epition: This website has poor use of repitition for a couple reasons. The colors schemes can be upredictable and the layout can be jaring with each element being a little different.</li><br>
+            <li><b>A</b>lignment: The alignment of this page creates a dijointed feel to the website. This is because the seemingly haphazard placement of elements not following a specific pattern</li><br>
+            <li><b>P</b>roximity: The proximity of this page is clusterphobic to say the least. Items are so close to eachother that it creates a cluttered feel and dosnt help to guide the users attention with so much information on screen at once.</li><br>
+        </ul>
+  </main>
+  <footer-template></footer-template>
+  <script> 
+    window.onload = function(){
+      document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" +location.href);
+      document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" +location.href);
+    }
+      </script>
+
+<!--body end-->
+</body>
+</html>

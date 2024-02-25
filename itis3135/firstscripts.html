@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>FirstScripts</title>
+   
+    <link rel="stylesheet" href="styles/default.css">
+   
+</head>
+<body>
+    <header>    
+    <h1>Motivated Manatee || ITIS3135 || First Scripts</h1>
+  </header>
+  <header-template></header-template>
+
+    <main>
+        <h2>First Scripts</h2>
+        <h3 id="date-time"></h3>
+
+        <form class="card" id="user-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="mood">How are you feeling today?</label><br>
+            <input type="text" id="mood" name="mood"><br>
+            <label for="number">What's your favorite number (0-10)?</label><br>
+            <input type="number" id="number" name="number" min="0" max="10"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p id="greeting"></p>
+
+        <div style="display: flex; justify-content: center;">
+        <button  onclick="joke()">Tell me a joke</button>
+        <button onclick="story()">Story time</button>
+        <button onclick="motivate()">Motivate Me</button>
+        <button onclick="animalFact()">Manatee fact</button>
+            </div>
+        <p class="card" id="function" style="display: none;"></p>
+    </main>
+
+    <footer-template></footer-template>
+
+    <script> 
+        window.onload = function(){
+          document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" +location.href);
+          document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" +location.href);
+        }
+          </script>
+    <script src="scripts/templates.js"></script> 
+    <script src="scripts/firstscripts.js"></script>
+</body>
+</html>

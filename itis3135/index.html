@@ -2,54 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/templates.js"></script>
 </head>
 <body>
-  <header>    
-    <h1> Motivated Manatee || ITIS3135 || Home </h1>
-      <nav>
-        <ul>
-          <li><a href="https://g00nsie.github.io/">CLT </a></li>
-          <li><a href="index.html">Home </a></li>
-          <li><a href="introduction.html">Introduction </a></li>
-          <li><a href="contract.html">Contract </a></li>
-          <li><a href="tables.html">Tables </a></li>
-          <li><a href="forms.html">forms</a></li>
-          </ul>
-      </nav>
-  </header>
+  <header><h1>Motivated Manatee || ITIS 3135 || Home</h1></header>
+  <header-template></header-template>
+
   <main>
     <h2>This page will be used for a hub to my course content</h2>
     <p>In the mean time, you can get to know me. My name is Manuel Merino but I normally go by Manny. I am a 4th year student and I'm stoked to graduate. If you want to get to know me you can read more <a href="introduction.html">here</a></p>
   </main>
-  <footer>
-    <ul>
-      <li><a href="https://g00nsie.github.io/">CLT</a></li>
-      <li><a href="https://github.com/G00NSIE">Github</a></li>
-      <li><a href="https://g00nsie.github.io/">Github.io</a></li>
-      <li><a href="https://g00nsie.github.io/itis3135/index.html">itis3135.io</a></li>
-      <li><a href="https://www.freecodecamp.org/MerinoM">FreeCodeCamp</a></li>
-      <li><a href="https://www.codecademy.com/profiles/MerinoM">Codecademy</a></li>
-      <li><a href="https://www.linkedin.com/in/mannymerino/">LinkedIn</a></li>
-    </ul>
-
-    <a class="validation" href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-    <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!"></a>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-    <img class="validation" style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
-
-    <script >
-      document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
-      document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-    </script>        
-      <p>© 2024 mannydesigns.space All rights reserved.</p>
-      <p>The best design solutions for your needs.</p>
-      <footer>
-      <p>Designed by <a href="../merinodesigns.space/index.html">merinodesigns</a></p>
-    </footer>
-  </footer>
+  
+  <footer-template></footer-template>
+  <script> 
+  window.onload = function(){
+    document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" +location.href);
+    document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" +location.href);
+  }
+    </script>
 
 <!--body end-->
 </body>

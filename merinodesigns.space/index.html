@@ -1,108 +1,145 @@
+<html>
 <head>
-    <style>
-      :root {
-    --primary-color: #ff8a00; 
-    --secondary-color: #ffffff; 
-    --tertiary-color: #333333;
-  }
-
-      main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
-  }
-      h1 {
-        color: white;
-        text-align: center;
-      }
-      p {
-        font-family: sans-serif;
-        font-size: 20px;
-      }
-      nav{
-        text-align: center;
-
-      }
-      header {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px;
-  }
-  footer {
-                background-color: var(--tertiary-color);
-                color: var(--secondary-color);
-                padding: 20px;
-            }
-
-            footer ul {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                list-style: none;
-            }
-            
-            footer li {
-                margin: 5px 10px;
-            }
-            
-            footer a {
-                color: var(--secondary-color);
-                text-decoration: none;
-            }
-            
-            footer a:hover {
-                text-decoration: underline;
-            }
-            
-            footer p {
-                text-align: center;
-                font-size: 12px;
-            }
-            #validation_link_html, #validation_link_css {
-                display: flex;
-                justify-content: center;
-
-            }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>mannydesigns.space</h1>
-      <nav>
-        <a href="https://g00nsie.github.io/itis3135/">Github Course Page</a>
-        <a href="https://g00nsie.github.io/">| Github root page</a>
-        
-      </nav>
-    </header>
-    <main>
-      <p>website under construction</p>
-      <!-- Use later -->
-    </main>
-    <footer>
-      <ul>
-        <li><a href="https://g00nsie.github.io/">CLT</a></li>
-        <li><a href="https://github.com/G00NSIE">Github</a></li>
-        <li><a href="https://g00nsie.github.io/">Github.io</a></li>
-        <li><a href="https://g00nsie.github.io/itis3135/index.html">itis3135.io</a></li>
-        <li><a href="https://www.freecodecamp.org/MerinoM">FreeCodeCamp</a></li>
-        <li><a href="https://www.codecademy.com/profiles/MerinoM">Codecademy</a></li>
-        <li><a href="https://www.linkedin.com/in/mannymerino/">LinkedIn</a></li>
-      </ul>
+  <style>
+    :root {
+  --primary-color: #071424; 
+  --secondary-color: #f5f5f5; 
+  --tertiary-color: #333333;
+}
+    main, header, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  position: center;
+}
+a{
+  color:#ffffff
   
-      <a class="validation" href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-      <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!"></a>
-      <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-      <img class="validation" style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
-  
-      <script >
-        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
-        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-      </script>        
-        <p>© 2024 mannydesigns.space All rights reserved.</p>
-        <p>The best design solutions for your needs.</p>
-        <footer>
-        <p>Designed by <a href="../merinodesigns.space/index.html">merinodesigns</a></p>
-      </footer>
+}
+    h1 {
+      color: white;
+      text-align: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h2{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo{
+      max-width: 200px;
+      max-width: 200px;
+      margin-left: auto; display: block;
+      margin-right: auto;
+      margin-bottom: auto;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;     
+      font-size: 20px;
+      
+    }
+    nav{
+      text-align: center;
+    }
+    header {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  position: center;
+  width: 75%;
+  top: 0;
+  left: 0;
+}
+ul{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+  color:#333333
+}
+
+footer {
+              background-color: var(--tertiary-color);
+              color: var(--secondary-color);
+              position: center;
+              width: 75%;
+              bottom: 0;
+              left: 0;
+          }
+          footer ul {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              list-style: none;
+          }
+          footer li {
+              margin: 5px 10px;
+          }
+          footer a {
+              color: var(--secondary-color);
+              text-decoration: none;
+          }
+          footer a:hover {
+              text-decoration: underline;
+          }
+          footer p {
+              text-align: center;
+              font-size: 12px;
+          }
+          #validation_link_html, #validation_link_css {
+              display: flex;
+              justify-content: center;
+          }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo"src="logo.jpg" alt="Logo (Manny designs)">
+    <h1>Manny Designs</h1>
+    <nav>
+      <a href="https://g00nsie.github.io/itis3135/">Github Course Page</a>
+      <a href="https://g00nsie.github.io/">| Github root page</a>
+    </nav>
+  </header>
+  <main>
+    <h2>The best design solutions for your needs</h2>
+    <p>Manny Designs is a design firm that specializes in creating cutting-edge equipment for various industries and sectors. Whether it is medical, military, automotive, or aerospace, Manny Designs can deliver innovative solutions that meet the needs and expectations of their clients. Manny Designs has a team of experienced and talented designers, engineers, and programmers who use the latest technologies and tools to design, prototype, and test their products. Manny Designs is committed to excellence, quality, and customer satisfaction. If you are looking for a design firm that can turn your vision into reality, look no further than Manny Designs.</p>
+    <ul>
+      <li>We have worked with some of the most prestigious and influential clients in the world, such as NASA, Tesla, Apple, and the United Nations.</li>
+      <li>We have won several awards and recognitions for our outstanding design work, such as the Red Dot Design Award, the iF Design Award, and the Good Design Award.</li>
+      <li>We have a diverse and inclusive culture that values creativity, collaboration, and innovation. We have designers from different backgrounds, disciplines, and perspectives who bring their unique talents and insights to our projects.</li>
+      <li>We have a state-of-the-art facility that is equipped with the latest technologies and tools, such as 3D printers, VR headsets, AI software, and cloud computing. We use these resources to design, prototype, and test our products in a fast and efficient manner.</li>
+      <li>We have a strong social and environmental responsibility that guides our design decisions. We aim to create products that are not only functional and aesthetic, but also sustainable and ethical. We follow the principles of circular design, green design, and human-centered design.</li>
+    </ul>
+    <p>At Manny Designs, we are always eager to work with new clients and help them achieve their design goals. Whether you need a logo, a website, a product, or a system, we can provide you with a customized solution that suits your needs and budget. We will work closely with you to understand your vision, requirements, and preferences, and deliver a high-quality design that exceeds your expectations. We will also provide you with support and feedback throughout the design process and beyond.</p>
+<address>Contact information for Manny Designs:<br>
+Written by <a class="info" href="mailto:mannydesigns@gmail.com">mannydesigns@gmail.com</a>.<br >
+Visit us at:<br>
+<a class="info" href="tel:+17045551234">+1 (704) 555-1234</a><br>
+<a class="info" href="https://goo.gl/maps/9Z9z8Z9z8Z9z8Z9z8">123 Main Street, Charlotte, NC 28202, USA</a>
+</address>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="https://g00nsie.github.io/">CLT</a></li>
+      <li><a href="https://github.com/G00NSIE">Github</a></li>
+      <li><a href="https://g00nsie.github.io/">Github.io</a></li>
+      <li><a href="https://g00nsie.github.io/itis3135/index.html">itis3135.io</a></li>
+      <li><a href="https://www.freecodecamp.org/MerinoM">FreeCodeCamp</a></li>
+      <li><a href="https://www.codecademy.com/profiles/MerinoM">Codecademy</a></li>
+      <li><a href="https://www.linkedin.com/in/mannymerino/">LinkedIn</a></li>
+    </ul>
+    <a class="validation" href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+    <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!"></a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+    <img class="validation" style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+    <script >
+      document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+      document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>        
+      <p>© 2024 mannydesigns.space All rights reserved.</p>
+      <p>The best design solutions for your needs.</p>
+      <footer>
+      <p>Designed by <a href="../merinodesigns.space/index.html">merinodesigns</a></p>
     </footer>
+  </footer>
+  </html>

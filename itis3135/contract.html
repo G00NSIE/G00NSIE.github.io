@@ -8,8 +8,8 @@
                 --tertiary-color: #333333;
             }
 
-            body{
-                max-width: 1000px;
+            main {
+                max-width: 800px;
                 margin: 0 auto;
                 padding: 20px;
                 background-color: var(--secondary-color);
@@ -28,85 +28,19 @@
                 color: var(--secondary-color);
                 padding: 10px;
             }
-            nav {
-                display: flex;
-                justify-content: center;
-                margin-bottom: 10px;
-            }
-            
-            nav ul {
-                list-style: none;
-            }
-            
-            nav li {
-                display: inline-block;
-                margin: 0 10px;
-            }
-            
-            nav a {
-                color: var(--secondary-color);
-                text-decoration: none;
-            }
-            
-            nav a:hover {
-                text-decoration: underline;
-            }
-            footer {
-                background-color: var(--tertiary-color);
-                color: var(--secondary-color);
-                padding: 20px;
-            }
-
-            footer ul {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                list-style: none;
-            }
-            
-            footer li {
-                margin: 5px 10px;
-            }
-            
-            footer a {
-                color: var(--secondary-color);
-                text-decoration: none;
-            }
-            
-            footer a:hover {
-                text-decoration: underline;
-            }
-            
-            footer p {
-                text-align: center;
-                font-size: 12px;
-            }
-            #validation_link_html, #validation_link_css {
-                display: flex;
-                justify-content: center;
-
-            }
   
         </style>
         <title>Contract</title>
+        <script src="scripts/templates.js"></script>
     </head>
     <body>
       
         
         <header>    
             <h1>Motivated Manatee || ITIS3135 || Contract</h1>
-              <nav>
-                <ul>
-                    <li><a href="https://g00nsie.github.io/">CLT</a></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="introduction.html">Introduction</a></li>
-                    <li><a href="contract.html">Contract</a></li>
-                    <li><a href="tables.html">Tables</a></li>
-                    <li><a href="forms.html">forms</a></li>
-                    </ul>
-              </nav>
           </header>
-    
+          <header-template></header-template>
+
         <p>I, <a href="introduction.html">Manuel Merino</a> agree to abide by the terms of the course contract in my spring semester 2024, ITSC3135, web app design  with my instructor, Professor D.I. von Briesen.
 
             I understand that all work that I do on publicly available online tools will be available to the world, and will not put information there that is inappropriate for schoolwork, or that I wish to keep private.
@@ -119,30 +53,6 @@
             </p>
         
     </body>
-    <footer>
-        <ul>
-          <li><a href="https://g00nsie.github.io/">CLT</a></li>
-          <li><a href="https://github.com/G00NSIE">Github</a></li>
-          <li><a href="https://g00nsie.github.io/">Github.io</a></li>
-          <li><a href="https://g00nsie.github.io/itis3135/index.html">itis3135.io</a></li>
-          <li><a href="https://www.freecodecamp.org/MerinoM">FreeCodeCamp</a></li>
-          <li><a href="https://www.codecademy.com/profiles/MerinoM">Codecademy</a></li>
-          <li><a href="https://www.linkedin.com/in/mannymerino/">LinkedIn</a></li>
-        </ul>
-    
-        <a class="validation" href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-        <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!"></a>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-        <img class="validation" style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
-    
-        <script >
-          document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
-          document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-        </script>        
-          <p>© 2024 mannydesigns.space All rights reserved.</p>
-          <p>The best design solutions for your needs.</p>
-          <footer>
-          <p>Designed by <a href="../merinodesigns.space/index.html">merinodesigns</a></p>
-        </footer>
-      </footer>
+    <footer-template></footer-template>
+      
 </html>
