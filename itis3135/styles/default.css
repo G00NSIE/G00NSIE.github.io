@@ -1,26 +1,18 @@
-@media only screen and (max-width: 600px) {
-  .device{
-    max-width: 70%;
-    margin: auto;
-    width: 90%
-  }
-
-}
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
-  .device{
-    max-width: 70%;
-    margin: auto;
-    width: 90%
+/* Tablet devices (width over 600px) */
+@media screen and (min-width: 600px) {
+  main {
+      max-width: 600px;
+      width: 90%;
+      margin: 0 auto;
   }
 }
-@media only screen and (min-width: 1200px) {
-  body {
-    max-width: 70%;
-    margin: auto;
-    width:100%;
-    
-    
 
+/* Desktop devices (width over 1200px) */
+@media screen and (min-width: 1200px) {
+  main {
+      max-width: 1200px;
+      width: 90%;
+      margin: 0 auto;
   }
 }
   /*--color scheme--> */
