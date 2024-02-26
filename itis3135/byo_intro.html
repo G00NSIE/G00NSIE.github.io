@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/templates.js"></script>
+  </head>
+  <body>
+    <main>
+        <header><h2 class="title">Motivated Manatee || ITIS3135 || BYO Intro</h2></header>  
+        <header-template></header-template>
+        <h3>Time to BYO Intro page, please fill out the form below so we can create your own page.</h3>
+
+        <form class="card" id="myForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Manuel Merino" required><br>
+            <label for="mascot">Mascot:</label><br>
+            <input type="text" id="mascot" name="mascot" placeholder="Motivated Manatee" required><br>
+            <label for="image">Image:</label><br>
+            <input type="file" id="image" name="image" accept=".jpg, .jpeg, .png" required><br>
+            <label for="caption">Image Caption:</label><br>
+            <input type="text" id="caption" name="caption" placeholder="Look its a manatee" required><br>
+            <label for="personalBackground">Personal Background:</label><br>
+            <textarea id="personalBackground" name="personalBackground" placeholder="I am a cs major at uncc" required></textarea><br>
+            <label for="professionalBackground">Professional Background:</label><br>
+            <textarea id="professionalBackground" name="professionalBackground" placeholder="I am currently in the market to get a job" required></textarea><br>
+            <label for="academicBackground">Academic Background:</label><br>
+            <textarea id="academicBackground" name="academicBackground" placeholder="4th year student" required></textarea><br>
+            <label for="webDevBackground">Background in Web Development:</label><br>
+            <textarea id="webDevBackground" name="webDevBackground" placeholder="worked on multiple project in the past" required></textarea><br>
+            <label for="platform">Primary Computer Platform:</label><br>
+            <input type="text" id="platform" name="platform" placeholder="windows" required><br>
+            <label for="courses">Courses currently taking:</label><br>
+            <div id="courses">
+                <input type="text" name="course1" placeholder="ITIS 3135" required>
+            </div>
+            <button type="button" id="addCourse">Add Course</button>
+            <button type="button" id="removeCourse">Remove Course</button><br>
+            <label for="funnyThing">Funny thing?</label><br>
+            <input type="text" id="funnyThing" placeholder="I be craving pickles some times"name="funnyThing"><br>
+            <label for="anythingElse">Anything else?</label><br>
+            <input type="text" id="anythingElse" placeholder="nah" name="anythingElse"><br>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.</label><br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br>
+        </form>
+        <script src="scripts/survey.js"></script>
+        <footer-template></footer-template>
+    </main>
+	
+  </body>
+</html>

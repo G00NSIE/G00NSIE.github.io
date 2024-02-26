@@ -8,7 +8,8 @@ class HeaderTemplate extends HTMLElement {
           header {
             background-color: #ff8a00;
             color:#ffffff;
-            padding: 20px;
+            padding-bottom: 10px;
+            
             
           }
           nav {
@@ -35,22 +36,27 @@ class HeaderTemplate extends HTMLElement {
           <nav>
             <ul>
               <li><a href="https://g00nsie.github.io/">CLT</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="index.html">Home</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="introduction.html">Introduction</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="contract.html">Contract</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="tables.html">Tables</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="forms.html">Forms</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="crap.html">Crap Evaluation</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="../stuff/WEB [PAGE].HTM">Cursed webpage</a></li>
-              <li>||</li>
+              <li>∵</li>
               <li><a href="firstscripts.html">First Script Page</a></li>
+              <li>∵</li>
+              <li><a href="about.html">About</a></li>
+              <li>∵</li>
+              <li><a href="byo_intro.html">BYO Intro</a></li>
+          
             </ul>
           </nav>
         </header>
@@ -102,6 +108,7 @@ class HeaderTemplate extends HTMLElement {
           }
         </style>
         <footer>
+        <p><strong>The Motivated Manatee:</strong> <em>The Ultimate Snack Destination for Exotic Cheese Puffs</em></p>
           <ul>
             <li><a href="https://g00nsie.github.io/">CLT</a></li>
             <li><a href="https://github.com/G00NSIE">Github</a></li>
