@@ -56,7 +56,10 @@ class HeaderTemplate extends HTMLElement {
               <li><a href="about.html">About</a></li>
               <li>∵</li>
               <li><a href="byo_intro.html">BYO Intro</a></li>
-          
+              <li>∵</li>
+              <li><a href="calculator_try.html">Calculator Try</a></li>
+              <li>∵</li>
+              <li><a href="arrays.html">Arrays</a></li>
             </ul>
           </nav>
         </header>

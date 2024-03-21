@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrays</title>
+    <link rel="stylesheet" href="styles/default.css">
+  </head>
+  <body>
+    <main>
+        <header></header>  
+        <header-template></header-template>
+        <h2>Motivated Manatee || ITIS3135 || Arrays</h2>
+
+        <div>
+            <input class="widthAdj" type="text" id="person" placeholder="Enter Name"><br>
+            <input type="number" id="salary" placeholder="Enter Salary">
+            <button class="button" onclick="addSalary()">Add Salary</button>
+        </div>
+    
+        <div>
+            <select class="widthAdj" id="modifyPerson" ></select><br>
+            <input type="number" id="newSalary" placeholder="New Salary">
+            <button class="button" onclick="modifySalary()">Modify Salary</button>
+        </div>
+    
+        <button class="button" onclick="displayResults()">Display Results</button>
+        <div id="results"></div>
+    
+        <button class="button" onclick="displaySalaries()">Display Salaries</button>
+        <table id="results_table"></table>
+
+        <footer><button type = "button" onclick = "document.querySelectorAll('link[rel=stylesheet]').forEach(function(e) {e.setAttribute('href', '');});">No CSS</button></footer>
+        <footer-template></footer-template>
+        <script src="scripts/templates.js"></script>
+        <script src="scripts/arrays.js"></script>
+    </main>
+  </body>
+</html>

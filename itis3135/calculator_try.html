@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator try</title>
+    <link rel="stylesheet" href="styles/default.css">
+     <script src="scripts/templates.js"></script>
+  </head>
+  <body>
+    <main>
+        <header></header>  
+        <header-template></header-template>
+        <h2>Motivated Manatee || ITIS3135 || Calculator Try</h2>
+        <p class="card">This is my rendition of an html calulator. I did not use FCC because I successfully made a working calulator.</p><br><br>
+        
+        <input id="display" type="text" readonly class="display"> 
+        <div class="calculator">
+        
+        <div>
+            <button class="calcbutton" onclick="inputNumber(1)">1</button>
+            <button class="calcbutton" onclick="inputNumber(2)">2</button>
+            <button class="calcbutton" onclick="inputNumber(3)">3</button>
+            <button class="calcbutton" onclick="add()">+</button>
+        </div>
+        <div>
+            <button class="calcbutton" onclick="inputNumber(4)">4</button>
+            <button class="calcbutton" onclick="inputNumber(5)">5</button>
+            <button class="calcbutton" onclick="inputNumber(6)">6</button>
+            <button class="calcbutton" onclick="subtract()">-</button>
+        </div>
+        <div>
+            <button class="calcbutton" onclick="inputNumber(7)">7</button>
+            <button class="calcbutton" onclick="inputNumber(8)">8</button>
+            <button class="calcbutton" onclick="inputNumber(9)">9</button>
+            <button class="calcbutton" onclick="divide()">/</button>
+        </div>
+        <div>
+            <button class="calcbutton" onclick="clearDisplay()">C</button>
+            <button class="calcbutton" onclick="inputNumber(0)">0</button>
+            <button class="calcbutton" onclick="calculate()">=</button>
+            <button class="calcbutton" onclick="multiply()">*</button>
+        </div></div>
+          <!--footer-->
+          <footer><button type = "button" onclick = 	"document.querySelectorAll('link[rel=stylesheet]').forEach(function(e)	{e.setAttribute('href', '');});">No CSS</button></footer>
+        <footer-template></footer-template>
+    </main>
+
+    <script src="scripts/calculator.js"></script>
+  </body>
+</html>
