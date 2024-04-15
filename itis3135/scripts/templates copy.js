@@ -1,75 +1,75 @@
 class HeaderTemplate extends HTMLElement {
-  constructor() {
-    super();
-    this.attachShadow({ mode: 'open' });
-    this.shadowRoot.innerHTML = `
-      <style>
-        
-        header {
-          background-color: #ff8a00;
-          color:#ffffff;
-          padding-bottom: 10px;
+    constructor() {
+      super();
+      this.attachShadow({ mode: 'open' });
+      this.shadowRoot.innerHTML = `
+        <style>
           
-          
-        }
-        nav {
-          display: flex;
-          justify-content: center;
-          margin-bottom: 10px;
-        }
-        nav ul {
-          list-style: none;
-        }
-        nav li {
-          display: inline-block;
-          margin: 0 10px;
-        }
-        nav a {
-          color:#ffffff;
-          text-decoration: none;
-        }
-        nav a:hover {
-          text-decoration: underline;
-        }
-      </style>
-      <header>
-        <nav>
-          <ul>
-            <li><a href="https://g00nsie.github.io/">CLT</a></li>
-            <li>∵</li>
-            <li><a href="index.html">Home</a></li>
-            <li>∵</li>
-            <li><a href="introduction.html">Introduction</a></li>
-            <li>∵</li>
-            <li><a href="contract.html">Contract</a></li>
-            <li>∵</li>
-            <li><a href="tables.html">Tables</a></li>
-            <li>∵</li>
-            <li><a href="forms.html">Forms</a></li>
-            <li>∵</li>
-            <li><a href="crap.html">Crap Evaluation</a></li>
-            <li>∵</li>
-            <li><a href="firstscripts.html">First Script Page</a></li>
-            <li>∵</li>
-            <li><a href="about.html">About</a></li>
-            <li>∵</li>
-            <li><a href="byo_intro.html">BYO Intro</a></li>
-            <li>∵</li>
-            <li><a href="calculator_try.html">Calculator Try</a></li>
-            <li>∵</li>
-            <li><a href="arrays.html">Arrays</a></li>
-            <li>∵</li>
-            <li><a href="drawing.html">Drawing</a></li>
-            <li>∵</li>
-            <li><a href="slideshow.html">Slide Show</a></li>
-          </ul>
-        </nav>
-      </header>
-    `;
+          header {
+            background-color: #ff8a00;
+            color:#ffffff;
+            padding-bottom: 10px;
+            
+            
+          }
+          nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+          }
+          nav ul {
+            list-style: none;
+          }
+          nav li {
+            display: inline-block;
+            margin: 0 10px;
+          }
+          nav a {
+            color:#ffffff;
+            text-decoration: none;
+          }
+          nav a:hover {
+            text-decoration: underline;
+          }
+        </style>
+        <header>
+          <nav>
+            <ul>
+              <li><a href="https://g00nsie.github.io/">CLT</a></li>
+              <li>∵</li>
+              <li><a href="index.html">Home</a></li>
+              <li>∵</li>
+              <li><a href="introduction.html">Introduction</a></li>
+              <li>∵</li>
+              <li><a href="contract.html">Contract</a></li>
+              <li>∵</li>
+              <li><a href="tables.html">Tables</a></li>
+              <li>∵</li>
+              <li><a href="forms.html">Forms</a></li>
+              <li>∵</li>
+              <li><a href="crap.html">Crap Evaluation</a></li>
+              <li>∵</li>
+              <li><a href="firstscripts.html">First Script Page</a></li>
+              <li>∵</li>
+              <li><a href="about.html">About</a></li>
+              <li>∵</li>
+              <li><a href="byo_intro.html">BYO Intro</a></li>
+              <li>∵</li>
+              <li><a href="calculator_try.html">Calculator Try</a></li>
+              <li>∵</li>
+              <li><a href="arrays.html">Arrays</a></li>
+              <li>∵</li>
+              <li><a href="drawing.html">Drawing</a></li>
+            </ul>
+          </nav>
+        </header>
+      `;
+    }
   }
-}
+  
+  customElements.define('header-template', HeaderTemplate);
 
-customElements.define('header-template', HeaderTemplate);
+  
 
 
 

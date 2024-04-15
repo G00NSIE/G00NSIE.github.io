@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Raleway, Martel, Andada Pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Martel:wght@200;300;400;600;700;800;900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<title>Midterm Project</title>
+
+    <style>
+        :root {
+     --background: #76ABAE; 
+    --foreground: rgba(56, 68, 86, 0.5); 
+    --card: rgba(59, 59, 72, 0.9);
+    --text: #EEEEEE;
+  }
+  .image-container {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start; 
+          margin-left: 20px;
+        }
+        body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('image/room.jpg');
+}
+
+main {
+  max-width: 800px; 
+  width: 100%;
+  
+}
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+        
+        .backSplash{
+            background-color: var(--foreground);
+        }
+
+        h1{
+            color:var(--text);
+            font-family: Raleway;
+            text-align: center;
+            color:var(--text);
+            
+        }
+        h2{
+            font-family: martel;
+            color:var(--text);
+        }
+        h3{
+            font-family: Andada Pro;
+            color:var(--text);
+        }
+        h4{
+          color:var(--text)
+        }
+        p{
+            color:var(--text);
+        }
+        
+        .content-container h3 {
+        margin-right: 20px; 
+        
+        }
+        .content-container {
+        display: flex; 
+        align-items:flex-start;
+        
+        }
+        .text-container {
+        display: flex; 
+        flex-direction: column; 
+        }
+        img{
+            max-width: 300px;
+            max-height: 300px;
+            margin-right: 20px;
+        }
+        .btn-group button {
+  background-color: var(--card); 
+  border: 1px solid black; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left;
+ 
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer p{
+    color:#ffffff;
+}
+footer a{
+    color:whitesmoke
+}
+footer a:hover{
+    color:#EEEEEE;
+}
+
+
+.btn-group button:hover {
+  background-color: rgba(34, 40, 49, 0.5);
+}
+.btn-group{
+    display: flex;
+  justify-content: center;
+}
+
+.card{
+            margin: 10px;
+            background-color: var(--card);
+            border-radius: 1px;
+            color:var(--text);
+            padding: 10px;
+            
+            
+        }
+        
+        
+
+    </style>
+
+  </head>
+  <body>
+    
+        <!--HEADER-->
+        <header>
+            <h1 class="card">Midterm Project</h1>
+            <div class="btn-group">
+                <button>What</button>
+                <button>Who</button>
+                <button>Where</button>
+                <button>How</button>
+                <button>Why</button>
+                
+              </div>
+        </header>
+        <!--MAIN-->
+        <main>
+           
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <p class="card">Designed by <a href="../merinodesigns.space/index.html">merinodesigns</a> Certified in <a href="https://www.freecodecamp.org/certification/MerinoM/responsive-web-design">RWD</a></p>
+          <!--TODO: validation links-->
+          <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+          <img style="border:0;width:88px;height:31px;margin:auto;" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!"></a>
+       <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+       <img style="border:0;width:88px;height:31px;margin:auto;" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+       <a href="https://wave.webaim.org/report#/https://webpages.charlotte.edu/mmerino1/itis3135/hobby/index.html" id="webaim" target="_blank">
+       <img src="image/Valid.png" alt="logo"></a>
+
+        </footer>
+        <script>
+            var commonStyles = `
+header{
+    background-color: #FDF5DF;
+}
+
+footer{
+    
+}
+
+.backSplash{
+    background-color: #9197AE;
+    padding: 10px
+}
+
+h1{
+    color: black;
+    font-family: Raleway;
+    text-align: center;
+    
+}
+h2{
+    font-family: martel;
+    margin-left:20px;
+}
+h3{
+    font-family: Andada Pro;
+}
+.content-container h3 {
+margin-left: 20px; 
+}
+.content-container {
+display: flex; 
+align-items:flex-start;
+}
+.text-container {
+display: flex; 
+flex-direction: column; 
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns the content to the left */
+}
+img{
+    max-width: 300px;
+    max-height: auto;
+    margin-left: 10px;
+}
+h4{
+  text-align: left;
+}
+
+`;
+
+var pages = {
+    What: {
+      content: `
+      <div class="backSplash">
+            
+            <h1>What all the noise about</h1>
+        
+            <div class="content-container">
+                <div class="image-container">
+                <img src="image/Ps1SkateBoarderHome.jpg" alt="Skateborder">
+                <h4>prompt: "Playstation 1 video game from 1998, a skate boarder, in the style of Silent Hill 2, CRT, grainy, scanlines, slight blur, little bloom, polygonal, low resolution, wide angle lens, vx1000"<br><em>-DALLE 3</em></h4>
+            </div>
+                <div class="text-container card">
+                <h2>SkateBoarding</h2>
+            <h3><p>Ah yes, the art of propelling oneself on a wooden plank with wheels. Where gravity is both a friend and foe, and the ground is your canvas.</p></h3>
+            </div>
+            
+                </div>  
+                <h3 class="card"><p>"The beauty of skating is that everybody has a unique set of variables that they can put in place and express their individual identity in the form of - call it - greatness."<br>
+                    <em>-Rodney Mullen</em></p></h3>
+                    </div>
+      `,
+      styles: `
+      header{
+            background-color: #FDF5DF;
+        }
+
+        footer{
+            
+        }
+
+        .backSplash{
+            background-color: #9197AE;
+            padding: 20px;
+        }
+
+        h1{
+            color: black;
+            font-family: Raleway;
+            text-align: center;
+            
+        }
+        
+        h2{
+            font-family: martel;
+        }
+        h3{
+            font-family: Andada Pro;
+        }
+        .content-container h3 {
+        margin-right: 20px; 
+        }
+        .content-container {
+        display: flex; 
+        align-items:flex-start;
+        }
+        .text-container {
+        display: flex; 
+        flex-direction: column; 
+        }
+        img{
+            max-width: 300px;
+            max-height: 300px;
+            margin-right: 20px;
+            
+            
+        }
+        .image-container {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start; 
+          margin-left: 20px;
+        }
+
+        .card{
+            margin: 10px;
+            background-color: #252627;
+            border-radius: 1px;
+            color:#D3D4D9;
+            padding: 10px;
+            
+        }
+        
+      `
+    },Who: { content:
+         `
+         <div class="backSplash">
+            
+            <h1>Get to know me</h1>
+        
+            <div class="content-container">
+                <div class="text-container card">
+                <h2>About me</h2>
+            <h3><p>My name is Manny and most days you can find me out side skating the streets of Charlotte. Theres nothing better then the feeling of a board under your feet and the wind in your hair. I started skating during the start of covid 19 in 2020 and iv never looked back. Skate boarding is my</p></h3>
+                    </div>
+                <div class="image-container">
+                <img src="image/aboutme.jpg" alt="Skateborder">
+                <h4>prompt: "Playstation 1 video game from 1998, a skate boarder at charcter select screen, in the style of Silent Hill 2, CRT, grainy, scanlines, slight blur, little bloom, polygonal, low resolution, wide angle lens, vx1000"<br><em>-DALLE 3</em></h4>
+
+                  </div>
+                </div> 
+                
+                <h3 class="card"><p>I have have been a skate instructor in the past. I taught kids the joys of skate boarding for 2 year. It was one of the most enjoyable jobs I got the pleasure work</p></h3> 
+            </div>  
+        `
+        , styles: commonStyles
+    },Where:{content:
+        `
+        <div class="backSplash">
+            
+            <h1>Concrete Jungle</h1>
+        
+            <div class="content-container">
+                <div class="text-container card">
+              <h2>Where:The Skate Park</h2>
+          <h3><p>The skate park is home to all the finest skaters a city has to offer. Here you can see skaters come from far and wide to test there might at the concrete playground. Most day you will find the same group of skaters lurking at the park. These select few are dubbed "the locals".</p></h3>
+          </div>
+                <div class="image-container">
+                <img src="image/skatepark2.jpg   " alt="Skateborder">
+                <h4>prompt: "Playstation 1 video game from 1998, a skate park, in the style of Silent Hill 2, CRT, grainy, scanlines, slight blur, little bloom, polygonal, low resolution, wide angle lens, vx1000"<br><em>-DALLE 3</em></h4>
+            </div>
+                
+            
+                </div>  
+                <h3><p class="card">"The beauty of skating is that everybody has a unique set of variables that they can put in place and express their individual identity in the form of - call it - greatness."<br>
+                    <em>-Rodney Mullen</em></p></h3>
+
+                    </div>  
+        `,styles:commonStyles
+    },How:{content:
+        `
+        <div class="backSplash">
+            
+            <h1>How to make it pro</h1>
+        
+            <div class="content-container">
+                <div class="text-container card">
+                  <h2>A Learning process</h2>
+              <h3><p>Skate boarding is a journey of trial and error, where you kiss the ground more than you'd like to admit. It's hours of practice that turn into days, and sometimes even weeks, with each attempt being a mix of hope and gravity-defying ambition.<br><br>But then, there's that magical moment when everything aligns your balance, the board, the wind. when you finally land that trick, it's like the stars have written your name across the sky.</p></h3>
+              </div>
+                <div class="image-container">
+                <img src="image/how2.jpg   " alt="Skateborder">
+                <h4>prompt: "Playstation 1 video game from 1998 skate park tutorial in the style of Silent Hill 2, CRT, grainy, scanlines, slight blur, little bloom, polygonal, low resolution, wide angle lens, vx1000"<br><em>-DALLE 3</em></h4>
+            </div>
+      
+            
+                </div>  
+                <h3><p class="card">The most basic of tricks; the ollie, on average takes about a month to learn and a life time to master</p></h3>
+                </div> 
+        `,styles:commonStyles
+    },
+     Why:{content:
+    `
+    <div class="backSplash">
+            
+            <h1>Freedom of Expression</h1>
+        
+            <div class="content-container">
+                <div class="text-container card">
+                  <h2>Why do we skate</h2>
+              <h3><p>Skateboarding is more than just a sport; it's a way to embrace the outdoors and lead an active lifestyle. It offers a unique canvas for self-expression, where each trick and ride becomes a work of art. It's a perfect outlet for energy, a practice of persistence and creativity. Beyond the individual experience, skateboarding fosters a sense of community. Skaters share not just parks and ramps but also tips, stories, and camaraderie.</p></h3>
+              </div>
+                <div class="image-container">
+                <img src="image/why.jpg   " alt="Skateborder">
+                <h4>prompt: "Playstation 1 video game from 1998, a boring cubical desk worker looking at a skateboard like he wants to ride but can't because he's at work, in the style of Silent Hill 2, CRT, grainy, scanlines, slight blur, little bloom, polygonal, low resolution, wide angle lens, vx1000"<br><em>-DALLE 3</em></h4>
+            </div>
+      
+            
+                </div>  
+                <h3><p class="card">Skate boarding has evolved into a multi billion dollar industry, and as of 2020 is an official sport of the summer Olympics </p></h3>
+    
+                </div>  
+    `,styles:commonStyles}
+    
+  };
+
+  function changePage(contentId) {
+  document.querySelector('main').innerHTML = pages[contentId].content;
+  document.getElementById('dynamicStyles').textContent = pages[contentId].styles;
+}
+
+
+document.querySelectorAll('.btn-group button').forEach(button => {
+  button.addEventListener('click', function() {
+    changePage(this.textContent);
+  });
+});
+
+
+
+var currentPage = 1;
+
+
+
+changePage('What');
+
+        </script>
+    
+   
+  </body>
+</html>

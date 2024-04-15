@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles/default.css">
-    <script src="scripts/templates.js"></script>
+    <script src="scripts/templates.js"></script> 
+    <script src="scripts/scripts.js"></script>
+    <script src="https://farawayforests.com/cdn/accumulus/accumulus.min.js"></script>
 </head>
 <body>
+  <main>
   <header><h1 class="title">Motivated Manatee || ITIS 3135 || Home</h1></header>
-  <header-template></header-template>
+  
+  <header-template></header-template> 
  
 
-  <main>
+  
     <h2>This page will be used for a hub to my course content</h2>
+    <div class="card">
+    <p>here you can find some sites with a diffent look and feel</p>
+    <ul>
+      <li><a href="../clientproject/index.html">Client Project</a></li>
+      <li><a href="hobby/index.html">Hobby</a></li>
+      <li><a href="../stuff/WEBPAGE.HTML">Cursed webpage</a></li>
+    </ul>
+  </div>
     <p>In the mean time, you can get to know me. My name is Manuel Merino but I normally go by Manny. I am a 4th year student and I'm stoked to graduate. If you want to get to know me you can read more <a href="introduction.html">here</a></p>
-  </main>
+  
   <footer><button type = "button" onclick = 	"document.querySelectorAll('link[rel=stylesheet]').forEach(function(e)	{e.setAttribute('href', '');});">No CSS</button></footer>
   <footer-template></footer-template>
-  
+</main>
   <script> 
   window.onload = function(){
     document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" +location.href);

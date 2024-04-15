@@ -1,0 +1,15 @@
+[
+    {"name": "CLT", "url": "https://g00nsie.github.io/"},
+    {"name": "Home", "url": "index.html"},
+    {"name": "Introduction", "url": "introduction.html"},
+    {"name": "Contract", "url": "contract.html"},
+    {"name": "Tables", "url": "tables.html"},
+    {"name": "Forms", "url": "forms.html"},
+    {"name": "Crap Evaluation", "url": "crap.html"},
+    {"name": "First Script Page", "url": "firstscripts.html"},
+    {"name": "About", "url": "about.html"},
+    {"name": "BYO Intro", "url": "byo_intro.html"},
+    {"name": "Calculator Try", "url": "calculator_try.html"},
+    {"name": "Arrays", "url": "arrays.html"},
+    {"name": "Drawing", "url": "drawing.html"}
+]

@@ -1,4 +1,4 @@
-// Declare two empty arrays
+
 let persons = [];
 let salaries = [];
 
@@ -27,6 +27,8 @@ function addSalary() {
 
     // Move cursor to the name field
     document.getElementById('person').focus();
+
+    //clear text from field
     personField.value = '';
     salaryField.value = '';
 }

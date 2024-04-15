@@ -21,7 +21,7 @@
 }
   /*--color scheme--> */
 :root {
-    --primary-color: #ff8a00; 
+    --primary-color:#ff8a00; 
     --secondary-color: #ffffff; 
     --tertiary-color: #333333;
   }
@@ -72,7 +72,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: var(--secondary-color);
+    background-color: rgb(241, 239, 239);
     color: var(--tertiary-color);
     display:block;
     flex-direction: column;
@@ -140,7 +140,7 @@ label {
 
 /*Crap*/
 .card{
-  background-color: #94999E;
+  background-color: var(--tertiary-color);
   border: none;
   color:white;
   padding: 10px 32px;
@@ -200,6 +200,65 @@ label {
 }
 /*-----*/
 
+/* slide show */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: #33333345;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  
+}
+.next {
+  right: 0;
+  font-size: 30px;
+  
+  
+}
+.prev {
+  left: 0;
+  font-size: 30px;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.prev, .next {
+  cursor: pointer;
+}
+.mySlides {
+  display: none;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
 
   
  /*footer*/
@@ -242,5 +301,5 @@ label {
 
   p{
     text-align: left;
-    font-size: 12px;
+    font-size: 18px;
   }
